@@ -6,9 +6,14 @@ body{
     display: inline;
 }
 
-h1{
+h1, h2{
     color: rgb(226, 168, 9);
     text-align: center;
+}
+
+h2{
+    padding: 120;
+    margin: 42;
 }
 
 a{
