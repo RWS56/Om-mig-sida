@@ -7,7 +7,7 @@ body{
 }
 
 h1, h2{
-    color: rgb(226, 168, 9);
+    color: white;
     text-align: center;
 }
 
@@ -16,7 +16,42 @@ h2{
     margin: 42;
 }
 
-a{
-    color: inherit;
-    text-decoration: none;
+a {
+    text-decoration: underline 0.18em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+  
+a:hover {
+    text-decoration-color: inherit;
+}
+
+.links{
+    position: flex;
+    /*FIXA TILL BÄTTRE SÄTT*/
+}
+
+.om-mig{
+    color: rgb(104, 214, 0);
+}
+
+.mina-projekt{
+    color: rgb(0, 214, 203);
+}
+
+.vene{
+    color: rgb(255, 72, 0);
+}
+
+.kontakta-mig{
+    color: rgb(255, 166, 0);
+}
+
+.bgVid{
+    /*minwidth gör videon fin över hela skärmen men man förlorar lite om man gör sidan mindre, tvärt om med width*/
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
 }
