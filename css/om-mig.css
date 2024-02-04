@@ -1,12 +1,20 @@
-.myImg {
-    width: 50%;
-    height: 100%;
-}
-
 .container {
     display: flex;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
 }
 
-.bio {}
+.text {
+    flex: 1;
+    padding: 1vw;
+    text-align: center;
+}
+
+.image {
+    position: sticky;
+    top: 0;
+    left: 0;
+    flex: 1;
+    padding: 0;
+    width: 50vw;
+    height: 100vh;
+}
