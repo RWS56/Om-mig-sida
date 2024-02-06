@@ -7,20 +7,29 @@
 		<link rel="stylesheet" href="../css/mina-projekt.css">
 	</head>
 	<body>
-		<div class="container">
-			<div class="project">
-				<img src="../bilder/cellularautomata1.png" alt="Project 1">
-				<p>Detta är ett "Falling Sand"-spel som jag har utvecklat. Spelet simulerar fysiken hos olika material som sand och vatten. När du spelar spelet, kan du observera hur dessa material interagerar med varandra på ett realistiskt sätt</p>
-			</div>
-			<div class="project">
-				<img src="../bilder/js-spel.png" alt="Project 2">
-				<p>Project 2 Description</p>
-			</div>
-			<div class="project">
-				<img src="" alt="Project 3">
-				<p>Project 3 Description</p>
-			</div>
-			<!-- Add more projects as needed -->
+		<div class="hemknapp">
+			<a href="../index.html"><h2>👈Hem</h2> </a>
+			<h2 class="instruktion">Hovra över för info</h2>
 		</div>
+		
+		<div class="container">
+    		<div class="project" onmouseover="document.getElementById('info1').style.color='rgb(243, 214, 133, 1)'" onmouseout="document.getElementById('info1').style.color='rgb(243, 214, 133, 0)'">
+      			<a href="https://github.com/RWS56/Javascript-Platformer" target="_blank"><img src="../bilder/js-spel.png" alt="js spel" class="project-title"></a>
+    		</div>
+
+    		<div class="project" onmouseover="document.getElementById('info2').style.color='rgb(243, 214, 133, 1)'" onmouseout="document.getElementById('info2').style.color='rgb(243, 214, 133, 0)'">
+     			<img src="../bilder/cellularautomata1.png" alt="js spel" class="project-title">
+    		</div>
+
+    		<div class="project" onmouseover="document.getElementById('info3').style.color='rgb(243, 214, 133, 1)'" onmouseout="document.getElementById('info3').style.color='rgb(243, 214, 133, 0)'">
+      			<img src="../bilder/mandelbrot.png" alt="js spel" class="project-title">
+    		</div>
+		</div>
+
+		<div id="info1" class="project-info">Detta är mitt senaste project, ett 2d platformer spel. Jag började på det denna termin då jag var uttråkad på en programmering 1 lektion. Martin hade nämnt att vi skulle göra spel senare så jag bestämde mig för att göra det där och då och göra så mycket som möjligt själv. Som att skapa en egen tilemapklass för att kunna göra 2d-banor och partikelsystem för att få lite finare grafik. Mer info på min github(klicka på bilden)</div>
+		<div id="info2" class="project-info">This is a description of Project 2.</div>
+		<div id="info3" class="project-info">This is a description of Project 3.</div>
 	</body>
 </html>
+
+<!--OBS: ÄNDRA SÅ ATT DET INTE FINNS TEXT UNDER NÅGOT-->

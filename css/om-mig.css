@@ -1,3 +1,10 @@
+body {
+    padding: 0;
+    margin: 0;
+    /*Vid extra tid, leta efter en bättre passande färg eller bild*/
+    background-color: rgb(38, 201, 146);
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -5,7 +12,6 @@
 
 .text {
     flex: 1;
-    padding: 1vw;
     text-align: center;
 }
 
@@ -14,7 +20,19 @@
     top: 0;
     left: 0;
     flex: 1;
-    padding: 0;
-    width: 50vw;
     height: 100vh;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 10px;
+}
+
+.hemknapp {
+    position: absolute;
+    text-decoration: none;
+}
+
+.stycke-1 {
+    padding: 20px;
 }
