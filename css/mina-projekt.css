@@ -56,5 +56,6 @@ img {
     position: absolute;
     text-align: center;
     color: rgb(243, 214, 133);
-    ;
+    left: calc(50vw - 100px);
+    /*GÖR BÄTTRE SÄTT SÅ ATT DET SCALAR eller så gör det redan det? perchance*/
 }
