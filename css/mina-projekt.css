@@ -1,6 +1,6 @@
 body {
     background-color: rgb(25, 25, 25);
-    overflow: hidden;
+    overflow: show;
 }
 
 .container {
@@ -41,7 +41,9 @@ img {
     color: rgba(243, 214, 133, 1);
     transition: 0.5s color;
     text-align: center;
-    bottom: 10px;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hemknapp {
