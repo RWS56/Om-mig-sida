@@ -37,15 +37,11 @@ img {
 }
 
 .project-info {
-    display: block;
     position: fixed;
-    bottom: 5vh;
-    width: 50%;
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    color: rgba(243, 214, 133, 0);
+    color: rgba(243, 214, 133, 1);
     transition: 0.5s color;
+    text-align: center;
+    bottom: 10px;
 }
 
 .hemknapp {

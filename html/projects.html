@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="../css/mina-projekt.css">
+		<script defer src="../js/projects.js"></script>
 	</head>
 	<body>
 		<div class="hemknapp">
@@ -13,22 +14,20 @@
 		</div>
 		
 		<div class="container">
-    		<div class="project" onmouseover="document.getElementById('info1').style.color='rgb(243, 214, 133, 1)'" onmouseout="document.getElementById('info1').style.color='rgb(243, 214, 133, 0)'">
-      			<a href="https://github.com/RWS56/Javascript-Platformer" target="_blank"><img src="../bilder/js-spel.png" alt="js spel" class="project-title"></a>
+    		<div class="project">
+      			<a href="https://github.com/RWS56/Javascript-Platformer" target="_blank"><img src="../bilder/js-spel.png" alt="js spel" class="project-title" id="platformer"></a>
     		</div>
 
-    		<div class="project" onmouseover="document.getElementById('info2').style.color='rgb(243, 214, 133, 1)'" onmouseout="document.getElementById('info2').style.color='rgb(243, 214, 133, 0)'">
-     			<img src="../bilder/cellularautomata1.png" alt="js spel" class="project-title">
+    		<div class="project">
+     			<img src="../bilder/cellularautomata1.png" alt="js spel" class="project-title" id="sand">
     		</div>
 
-    		<div class="project" onmouseover="document.getElementById('info3').style.color='rgb(243, 214, 133, 1)'" onmouseout="document.getElementById('info3').style.color='rgb(243, 214, 133, 0)'">
-      			<img src="../bilder/mandelbrot.png" alt="js spel" class="project-title">
+    		<div class="project">
+      			<img src="../bilder/mandelbrot.png" alt="js spel" class="project-title" id="mandelbrot">
     		</div>
 		</div>
 
-		<div id="info1" class="project-info">Detta är mitt senaste project, ett 2d platformer spel. Jag började på det denna termin då jag var uttråkad på en programmering 1 lektion. Martin hade nämnt att vi skulle göra spel senare så jag bestämde mig för att göra det där och då och göra så mycket som möjligt själv. Som att skapa en egen tilemapklass för att kunna göra 2d-banor och partikelsystem för att få lite finare grafik. Mer info på min github(klicka på bilden)</div>
-		<div id="info2" class="project-info">This is a description of Project 2.</div>
-		<div id="info3" class="project-info">This is a description of Project 3.</div>
+		<div id="info" class="project-info"></div>
 	</body>
 </html>
 <!--INFÖR ONSDAGEN CENTRERA DESSA ^^^^^^^^^projectinfo och dessutom fixa instruktionsknappen så att den är centrerad på sidan-->
