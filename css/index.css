@@ -48,7 +48,6 @@ a:hover {
 }
 
 .bgVid {
-    /*minwidth gör videon fin över hela skärmen men man förlorar lite om man gör sidan mindre, tvärt om med width*/
     min-width: 100%;
     min-height: 100%;
     top: 0;

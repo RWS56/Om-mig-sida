@@ -21,7 +21,7 @@ body {
 
 .project:hover {
     transform: scale(1.2);
-    z-index: 10;
+    z-index: 2;
     /*Så att den lägger sig framför de andra sekunden man hovrar. Utan detta blir det lite fulare enligt mig*/
 }
 
@@ -44,6 +44,7 @@ img {
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 3;
 }
 
 .hemknapp {
@@ -55,5 +56,4 @@ img {
     text-align: center;
     color: rgb(243, 214, 133);
     left: calc(50vw - 100px);
-    /*GÖR BÄTTRE SÄTT SÅ ATT DET SCALAR eller så gör det redan det? perchance*/
 }
